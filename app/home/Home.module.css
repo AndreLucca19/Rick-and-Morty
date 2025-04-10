@@ -1,11 +1,11 @@
 .container {
-background-image: url("/space.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;   
-min-width: 100vh;
-padding: 2rem;
-background-attachment: fixed;
+    background-image: url("/ak.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    min-width: 100vh;
+    padding: 2rem;
+    background-attachment: fixed;
 }
 
 .grid {

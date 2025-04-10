@@ -1,12 +1,12 @@
 .card {
-    width: 275px;
-    background-color: white;
+    width: 270px;
     padding: 1rem;
+    background-color: rgba(0, 249, 12, 0.658);
     border-radius: 15px;
     text-align: center;
     transition: transform 0.25s;
 }
-
+    
 .card:hover {
     transform: scale(1.1);
 }
