@@ -10,7 +10,7 @@
     min-height: 100vh;
     background-color: black;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .grid {
@@ -40,10 +40,13 @@
     height: 4vh;
     padding: 0.5rem;
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-left: none;
+    border-right: none;
     font-size: 1rem;
     outline: none;
     transition: border-color 0.3s ease;
+    position: block;
+    border: none;
 }
 
 .input:focus {
@@ -55,32 +58,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     margin-bottom: 1rem;
-    gap: 0.5rem; 
+    gap: 0; 
 }
 
 .resetButton {
-    height: 7vh;
+    height: 6.55vh;
     width: 7vw;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     background-color: #b40000;
     color: white;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
 }
 
 .searchButton {
-    height: 7vh;
+    height: 6.55vh;    
     width: 7vw;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     background-color: #03bd00;
     color: white;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
 }
 
 .searchButton:hover {
@@ -98,8 +104,6 @@
 }
 
 .buttonNav {
-    height: 7vh;
-    width: 7vw;
     border-radius: 5px;
     background-color: #007bff;
     color: white;
@@ -107,8 +111,20 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 0 0.5rem; /* Espaçamento horizontal entre os botões */
+    margin: 0;
+    display: inline-block;
+    text-align: center;
 }
-
-
-
+.navControls {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.pageIndicator {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
