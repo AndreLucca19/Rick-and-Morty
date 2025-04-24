@@ -1,10 +1,11 @@
 .card {
-    width: 270px;
+    width: 150px;
     padding: 1rem;
     background-color: rgba(0, 249, 12, 0.658);
     border-radius: 15px;
     text-align: center;
     transition: transform 0.25s;
+    color: rgb(222, 255, 207);
 }
     
 .card:hover {
@@ -12,7 +13,7 @@
 }
 
 .avatar {
-    width: 125px;
+    width: 120px;
     border-radius: 50%;
     
 }
@@ -20,4 +21,5 @@
 .title {
     margin: 10px 0 5px;
     font-size: 20px;
+    color: rgb(222, 255, 207);
 }
